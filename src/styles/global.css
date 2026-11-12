@@ -6,6 +6,23 @@
 
 @import "tailwindcss";
 
+@theme {
+	--color-primary-light: #6028d9;
+	--color-primary-default: #059669;
+	--color-primary-dark: #065f46;
+
+	--color-secondary-light: #34d399;
+	--color-secondary-default: #059669;
+	--color-secondary-dark: #065f46;
+
+	--font-family-sans: [ "Inter", "sans-serif"];
+	--font-family-heading: [ "Ubuntu", "sans-serif"];
+
+	--spacing-72: 18rem;
+	--text-xxs: 0.65rem;
+	--text-xxs--line-height: 1.1;
+}
+
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
